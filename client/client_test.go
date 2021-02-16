@@ -1,11 +1,11 @@
 package client
 
 import (
+	"github.com/maximovd/go-torrent-client/bitfield"
+	"github.com/maximovd/go-torrent-client/handshake"
+	"github.com/maximovd/go-torrent-client/message"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/veggiedefender/torrent-client/bitfield"
-	"go-torrent-client/handshake"
-	"go-torrent-client/message"
 	"net"
 	"testing"
 )

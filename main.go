@@ -1,7 +1,7 @@
 package go_torrent_client
 
 import (
-	"go-torrent-client/torrentfile"
+	"github.com/maximovd/go-torrent-client/torrentfile"
 	"log"
 	"os"
 )

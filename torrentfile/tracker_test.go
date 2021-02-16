@@ -1,8 +1,8 @@
 package torrentfile
 
 import (
+	"github.com/maximovd/go-torrent-client/peers"
 	"github.com/stretchr/testify/assert"
-	"go-torrent-client/peers"
 	"net"
 	"net/http"
 	"net/http/httptest"

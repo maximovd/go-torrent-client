@@ -2,7 +2,7 @@ package torrentfile
 
 import (
 	"github.com/jackpal/bencode-go"
-	"go-torrent-client/peers"
+	"github.com/maximovd/go-torrent-client/peers"
 	"net/http"
 	"net/url"
 	"strconv"

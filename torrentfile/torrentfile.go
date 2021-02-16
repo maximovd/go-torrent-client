@@ -6,7 +6,7 @@ import (
 	"crypto/sha1"
 	"fmt"
 	"github.com/jackpal/bencode-go"
-	"go-torrent-client/p2p"
+	"github.com/maximovd/go-torrent-client/p2p"
 	"os"
 )
 

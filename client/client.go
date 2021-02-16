@@ -3,10 +3,10 @@ package client
 import (
 	"bytes"
 	"fmt"
-	"github.com/veggiedefender/torrent-client/bitfield"
-	"go-torrent-client/handshake"
-	"go-torrent-client/message"
-	"go-torrent-client/peers"
+	"github.com/maximovd/go-torrent-client/bitfield"
+	"github.com/maximovd/go-torrent-client/handshake"
+	"github.com/maximovd/go-torrent-client/message"
+	"github.com/maximovd/go-torrent-client/peers"
 	"net"
 	"time"
 )
