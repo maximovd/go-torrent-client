@@ -160,7 +160,7 @@ func (m *Message) name() string {
 	case MsgCancel:
 		return "Cancel"
 	default:
-		return fmt.Sprint("Unknown#%d", m.ID)
+		return fmt.Sprintf("Unknown#%d", m.ID)
 	}
 }
 
