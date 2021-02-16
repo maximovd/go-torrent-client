@@ -1,4 +1,4 @@
-module "https://github.com/maximovd/go-torrent-client"
+module github.com/maximovd/go-torrent-client
 
 go 1.15
 
